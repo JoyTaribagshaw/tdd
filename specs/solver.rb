@@ -1,2 +1,5 @@
 class Solver
-end
+    def self.factorial(n)
+      (1..n).reduce(:*)
+    end
+  end
