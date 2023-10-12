@@ -1,14 +1,18 @@
 require 'rspec'
 require_relative 'solver'
 
-describe Solver do
- describe .reverse do
- end
-end
-
-describe Solver do
-  describe .reverse do
-  it 'reverses a string' do
-     expect(Solver.reverse('reverse')).to eq('esrever')
+class Solver
+  def self.factorial(num)
+    if num.zero?
+      1
+    elsif num.negative?
+      raise ArgumentError, 'number has to be positive or 0'
+    else
+      (1..num).reduce(:*)
+    end
   end
- end
+
+  def self.reverse(word)
+    word.reverse
+  end
+end
