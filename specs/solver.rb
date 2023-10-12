@@ -8,4 +8,13 @@ class Solver
       (1..num).reduce(:*)
     end
   end
+
+  def self.reverse(word)
+    word.reverse
+  end
+
+def self.fizzbuzz(n)
+    n % 3 == 0
+  "fizz"
+end
 end
