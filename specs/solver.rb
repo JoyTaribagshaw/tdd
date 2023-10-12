@@ -18,8 +18,10 @@ def self.fizzbuzz(n)
     'fizz'
   elsif n % 5 == 0
     'buzz'
-  else (n % 3 == 0) && (n % 5 == 0)
+  elseif (n % 3 == 0) && (n % 5 == 0)
     'fizzbuzz'
   end
+   else
+    n.to_s
 end
 end
