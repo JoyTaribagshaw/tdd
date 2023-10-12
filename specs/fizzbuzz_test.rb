@@ -10,5 +10,9 @@ describe '.fizzbuzz' do
 it 'returns "buzz" for multiples of 5' do
   expect(Solver.fizzbuzz(10)).to eq('buzz')
 end
+
+it 'returns "fizzbuzz" for multiples of both 3 and 5' do
+  expect(Solver.fizzbuzz(15)).to eq('fizzbuzz')
+end
 end
 end
