@@ -14,7 +14,11 @@ class Solver
   end
 
 def self.fizzbuzz(n)
-    n % 3 == 0
-  "fizz"
+  if n % 3 == 0
+    "fizz"
+  else n % 5 == 0
+  "buzz"
+  end
 end
+
 end
