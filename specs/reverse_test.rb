@@ -5,3 +5,10 @@ describe Solver do
  describe .reverse do
  end
 end
+
+describe Solver do
+  describe .reverse do
+  it 'reverses a string' do
+     expect(Solver.reverse('reverse')).to eq('esrever')
+  end
+ end
