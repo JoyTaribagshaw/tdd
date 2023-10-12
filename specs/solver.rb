@@ -1,8 +1,8 @@
 class Solver
   def self.factorial(num)
-    if num == 0
+    if num.zero?
       1
-    elsif num < 0
+    elsif num.negative?
       raise ArgumentError, 'number has to be positive or 0'
     else
       (1..num).reduce(:*)
