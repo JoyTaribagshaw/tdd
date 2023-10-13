@@ -77,15 +77,15 @@ Before running this project, make sure you have the following prerequisites inst
 ## 👥 Authors <a name="authors"></a>
 👤 Agneta Pupienyte
 
-GitHub: @agneta1991<br>
-Twitter: @pupienytea<br>
-LinkedIn: LinkedIn<br>
+- GitHub: [Agneta](https://github.com/agneta1991)<br>
+- Twitter: [Agneta](https://twitter.com/pupienytea)<br>
+- LinkedIn: [Agneta](https://www.linkedin.com/in/agneta-pupienyte-124a27256)<br>
 
 👤 *Joy Tari*
 
-- GitHub: [Joy](https://github.com/JoyTaribagshaw)
-- Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
-- LinkedIn: [Joy](https://www.linkedin.com/in/joytaribagshaw/)
+- GitHub: [Joy](https://github.com/JoyTaribagshaw)<br>
+- Twitter: [Joy](https://twitter.com/JoyTariBagshaw)<br>
+- LinkedIn: [Joy](https://www.linkedin.com/in/joytaribagshaw/)<br>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
